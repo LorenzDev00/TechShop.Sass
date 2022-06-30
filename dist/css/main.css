@@ -94,12 +94,6 @@ footer {
   height: 20vh;
 }
 
-@impo body {
-  background: #fefae0;
-  h1, h3 {
-    color: white;
-  }
-}
 .hero-section__services {
   display: flex;
   justify-content: space-between;
