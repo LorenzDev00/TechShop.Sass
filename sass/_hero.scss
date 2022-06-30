@@ -1,0 +1,39 @@
+.hero-section{
+    background: url('/dist/img/background-image.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+    &__hero-icon{
+        padding: 20px 0px 0px 20px;
+
+        i{
+            color: white;
+            font-size: 30px;
+        }
+    
+    }
+
+    &__hero-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 1px;
+
+        h1{
+            font-size: 4rem;
+            font-weight: 500;
+        }
+
+        h3{
+            border-top: solid white 1px;
+            padding-top: 5px;
+            margin: 10px 250px 0px 250px; 
+            font-size: 2rem;
+            font-weight: 50;
+        }
+
+    }
+
+}

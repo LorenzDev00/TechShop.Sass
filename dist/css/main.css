@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #1d3557;
+  overflow: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+.sidenav a:hover {
+  background-color: #0077b6;
+}
+.sidenav__closebtn {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav__closebtn:hover {
+  color: #0077b6;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.hero-section {
+  background: url("/dist/img/background-image.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section__hero-icon {
+  padding: 20px 0px 0px 20px;
+}
+.hero-section__hero-icon i {
+  color: white;
+  font-size: 30px;
+}
+.hero-section__hero-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.hero-section__hero-text h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.hero-section__hero-text h3 {
+  border-top: solid white 1px;
+  padding-top: 5px;
+  margin: 10px 250px 0px 250px;
+  font-size: 2rem;
+  font-weight: 50;
+}
+
+body {
+  background: #fefae0;
+}
+body h1, body h3 {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
