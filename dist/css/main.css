@@ -86,6 +86,28 @@ footer {
   background: #1d3557;
   color: white;
   height: 20vh;
+  text-align: center;
+}
+footer h6 {
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.footer-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-container a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  padding: 25px 20px 0px 20px;
+}
+.footer-container a:hover {
+  color: #0077b6;
 }
 
 body {
