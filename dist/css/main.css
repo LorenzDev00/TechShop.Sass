@@ -94,6 +94,13 @@ footer {
   height: 20vh;
 }
 
+body {
+  background: #fefae0;
+}
+body h1, body h3 {
+  color: white;
+}
+
 .hero-section__services {
   display: flex;
   justify-content: space-between;
@@ -107,8 +114,11 @@ footer {
   padding: 12px 12px 12px 12px;
   text-align: left;
 }
+
 .hero-section__services .card img {
-  background-size: cover;
+  background-size: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 16rem;
   height: 10rem;
   border-radius: 5px 5px 0px 0px;
