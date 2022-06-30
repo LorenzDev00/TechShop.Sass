@@ -2,12 +2,44 @@
 @import 'menu';
 @import 'media';
 @import 'hero';
+@import 'footer';
+@import 'shadow';
 
 body{
     background: $background-color;
 
     h1,h3{
         color: white;
+    }
+}
+
+.hero-section__services{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 250px 0px 250px;
+
+    
+    .card{
+        background: rgba(255, 255, 255, .15); 
+        backdrop-filter: blur(20px);
+        border-radius: 5px;
+        padding: 12px 12px 12px 12px;
+        text-align: left;
+        
+
+        img{
+            background-size: cover;
+            width: 16rem;
+            height: 10rem;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        h4{
+            width: 16rem;
+            padding-top: 10px;
+            color: white;
+            font-weight: 300;
+        }
     }
 }
 
