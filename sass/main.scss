@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'media';
 @import 'hero';
 @import 'footer';
 
@@ -24,7 +23,6 @@ body{
         border-radius: 5px;
         padding: 12px 12px 12px 12px;
         text-align: left;
-        @include card-shadow;
         
 
         img{
@@ -41,6 +39,22 @@ body{
             color: white;
             font-weight: 300;
         }
+
+        button{
+            padding: 8px;
+            margin-top: 1rem;
+            background-color: $secondary-color;
+            color: white;
+            border-style: none;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: $primary-color;
+            }
+
+
+        }
+
     }
 }
 
